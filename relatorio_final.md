@@ -45,7 +45,7 @@ FIM FUNÇÃO
 
 O fluxograma abaixo ilustra visualmente o caminho de decisão do sistema, desde a leitura dos dados até o veredito final.
 
-![Fluxograma de Verificação de Decolagem](fluxograma_simples.png)
+![Fluxograma de Verificação de Decolagem](/home/ubuntu/fluxograma_simples.png)
 
 ---
 
