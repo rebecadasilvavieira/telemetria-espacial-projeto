@@ -37,7 +37,7 @@ Para rodar este projeto em sua máquina local, siga os passos abaixo:
    python telemetria_script.py
    ```
 4. **Executar via Notebook**:
-   Caso prefira, você também pode abrir o arquivo `telemetria_notebook.ipynb` em um ambiente Jupyter Notebook ou VS Code para visualizar a execução passo a passo.
+   Caso prefira, você também pode abrir o arquivo `telemetria_notebook.ipynb` em um ambiente VS Code para visualizar a execução passo a passo.
 
 📸 Exemplo de Execução
 ```text
