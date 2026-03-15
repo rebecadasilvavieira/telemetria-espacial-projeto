@@ -2,13 +2,13 @@
 
 Este projeto simula um sistema de telemetria para veículos espaciais, capaz de decidir entre "PRONTO PARA DECOLAR" ou "DECOLAGEM ABORTADA" com base em parâmetros críticos de segurança.
 
-## 🚀 Funcionalidades
+🚀 Funcionalidades
 - **Monitoramento de Telemetria**: Leitura de temperatura, pressão, energia e integridade.
 - **Algoritmo de Decisão**: Lógica baseada em faixas seguras predefinidas.
 - **Simulação em Python**: Script para testar diferentes cenários de voo.
 - **Análise Energética**: Cálculo de autonomia e perdas.
 
-## 📊 Parâmetros de Segurança
+📊 Parâmetros de Segurança
 | Parâmetro | Descrição | Faixa Segura |
 | :--- | :--- | :--- |
 | Temperatura Interna | Calor nos sistemas eletrônicos e cabine. | 15°C a 35°C |
@@ -18,7 +18,7 @@ Este projeto simula um sistema de telemetria para veículos espaciais, capaz de 
 | Pressão dos Tanques | Pressão do combustível e oxidante. | 200 a 350 bar |
 | Status Módulos Críticos | Sistemas de navegação e comunicação. | 1 (Operacional) |
 
-## 🛠️ Como Executar
+🛠️ Como Executar
 1. Certifique-se de ter o Python 3 instalado.
 2. Clone este repositório.
 3. Execute o script principal:
@@ -27,7 +27,7 @@ Este projeto simula um sistema de telemetria para veículos espaciais, capaz de 
    ```
 4. Ou abra o arquivo `telemetria_notebook.ipynb` em um ambiente Jupyter Notebook ou VS Code.
 
-## 📸 Exemplo de Execução
+📸 Exemplo de Execução
 ```text
 --- SISTEMA DE VERIFICAÇÃO DE TELEMETRIA ---
 Simulação #1:
@@ -39,5 +39,5 @@ Dados lidos: {'temp_interna': 17.24, 'temp_externa': -7.5, 'integridade': 1, 'en
 RESULTADO: PRONTO PARA DECOLAR
 ```
 
-## 📝 Licença
+📝 Licença
 Este projeto foi desenvolvido para fins educacionais.
