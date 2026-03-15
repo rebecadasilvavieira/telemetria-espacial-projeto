@@ -9,14 +9,14 @@ Este projeto simula um sistema de telemetria para veículos espaciais, capaz de 
 - **Análise Energética**: Cálculo de autonomia e perdas.
 
 ## 📊 Parâmetros de Segurança
-| Parâmetro | Faixa Segura |
-| :--- | :--- |
-| Temperatura Interna | 15°C a 35°C |
-| Temperatura Externa | -50°C a 100°C |
-| Integridade Estrutural | 1 (Íntegro) |
-| Níveis de Energia | > 80% |
-| Pressão dos Tanques | 200 a 350 bar |
-| Status Módulos Críticos | 1 (Operacional) |
+| Parâmetro | Descrição | Faixa Segura |
+| :--- | :--- | :--- |
+| Temperatura Interna | Calor nos sistemas eletrônicos e cabine. | 15°C a 35°C |
+| Temperatura Externa | Calor da fuselagem e ambiente externo. | -50°C a 100°C |
+| Integridade Estrutural | Status dos sensores de tensão e fissuras. | 1 (Íntegro) |
+| Níveis de Energia | Carga das baterias principais. | > 80% |
+| Pressão dos Tanques | Pressão do combustível e oxidante. | 200 a 350 bar |
+| Status Módulos Críticos | Sistemas de navegação e comunicação. | 1 (Operacional) |
 
 ## 🛠️ Como Executar
 1. Certifique-se de ter o Python 3 instalado.
