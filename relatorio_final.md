@@ -2,7 +2,7 @@
 
 ## 1.1 Organização e Descrição da Telemetria
 
-A telemetria é o sistema de medição e transmissão de dados à distância, essencial para monitorar a saúde de um veículo espacial em tempo real. Para este projeto, selecionei seis parâmetros críticos que determinam a segurança da missão. Cada parâmetro possui uma **faixa segura** baseada em padrões da indústria aeroespacial:
+A telemetria é o sistema de medição e transmissão de dados à distância, essencial para monitorar a saúde de um veículo espacial em tempo real. Para este projeto, estabeleci seis parâmetros críticos que determinam a segurança da missão. Cada parâmetro possui uma **faixa segura** baseada em padrões da indústria aeroespacial:
 
 | Parâmetro | Descrição Detalhada | Faixa Segura (PRONTO) |
 | :--- | :--- | :--- |
@@ -84,4 +84,4 @@ Utilizei inteligência artificial para identificar padrões que sensores comuns 
 
 ## 1.6 Reflexão Crítica
 
-A exploração espacial deve ser pautada pela **ética e responsabilidade**. Discuti como o avanço tecnológico deve caminhar junto com a **sustentabilidade**, evitando a criação de lixo espacial e garantindo que os benefícios das descobertas espaciais sejam compartilhados com toda a sociedade, promovendo um impacto social positivo e duradouro.
+A exploração espacial deve ser pautada pela **ética e responsabilidade**. Analisei como o avanço tecnológico deve caminhar junto com a **sustentabilidade**, evitando a criação de lixo espacial e garantindo que os benefícios das descobertas espaciais sejam compartilhados com toda a sociedade, promovendo um impacto social positivo e duradouro.
