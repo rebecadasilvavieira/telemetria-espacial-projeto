@@ -2,10 +2,10 @@ import random
 
 def verificar_decolagem(telemetria):
     """
-    Verifica se os dados de telemetria estão dentro das faixas seguras.
+    Verifica se os dados de telemetria estão dentro das faixas seguras estabelecidas.
     Retorna (bool, str) -> (Sucesso, Mensagem)
     """
-    # Definição das faixas seguras
+    # Definição das faixas seguras que estabeleci para a missão
     FAIXAS = {
         "temp_interna": (15, 35),
         "temp_externa": (-50, 100),
@@ -15,6 +15,7 @@ def verificar_decolagem(telemetria):
         "modulos": 1
     }
 
+    # Verificação individual de cada parâmetro crítico
     if not (FAIXAS["temp_interna"][0] <= telemetria["temp_interna"] <= FAIXAS["temp_interna"][1]):
         return False, f"ABORTADA: Temperatura interna ({telemetria['temp_interna']}°C) fora da faixa segura."
     
@@ -25,7 +26,7 @@ def verificar_decolagem(telemetria):
         return False, "ABORTADA: Integridade estrutural comprometida (0)."
     
     if telemetria["energia"] < FAIXAS["energia"]:
-        return False, f"ABORTADA: Níveis de energia ({telemetria['energia']}%) abaixo do mínimo."
+        return False, f"ABORTADA: Níveis de energia ({telemetria['energia']}%) abaixo do mínimo de 80%."
     
     if not (FAIXAS["pressao"][0] <= telemetria["pressao"] <= FAIXAS["pressao"][1]):
         return False, f"ABORTADA: Pressão dos tanques ({telemetria['pressao']} bar) fora da faixa segura."
@@ -37,7 +38,7 @@ def verificar_decolagem(telemetria):
 
 def simular_leitura_dados():
     """
-    Simula a leitura de dados de telemetria com valores aleatórios.
+    Simula a leitura de dados de telemetria com valores aleatórios para teste do sistema.
     """
     return {
         "temp_interna": round(random.uniform(10, 40), 2),
@@ -49,17 +50,25 @@ def simular_leitura_dados():
     }
 
 if __name__ == "__main__":
-    print("--- SISTEMA DE VERIFICAÇÃO DE TELEMETRIA ---")
+    print("="*50)
+    print("   SISTEMA DE VERIFICAÇÃO DE TELEMETRIA ESPACIAL")
+    print("="*50)
     
-    # Simular 3 leituras
-    for i in range(1, 4):
-        print(f"\nSimulação #{i}:")
+    # Realizei a simulação de 5 leituras para validar o algoritmo
+    for i in range(1, 6):
+        print(f"\n>>> Simulação #{i}:")
         dados = simular_leitura_dados()
-        print(f"Dados lidos: {dados}")
+        print(f"Dados capturados pelos sensores: {dados}")
         
         sucesso, mensagem = verificar_decolagem(dados)
         
         if sucesso:
-            print(f"RESULTADO: \033[92m{mensagem}\033[0m")
+            # Saída em verde para sucesso (se o terminal suportar cores)
+            print(f"STATUS FINAL: \033[92m{mensagem}\033[0m")
         else:
-            print(f"RESULTADO: \033[91m{mensagem}\033[0m")
+            # Saída em vermelho para falha
+            print(f"STATUS FINAL: \033[91m{mensagem}\033[0m")
+    
+    print("\n" + "="*50)
+    print("   VERIFICAÇÃO CONCLUÍDA")
+    print("="*50)
