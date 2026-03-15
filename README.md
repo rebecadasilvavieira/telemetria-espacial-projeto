@@ -18,14 +18,25 @@ Este projeto simula um sistema de telemetria para veículos espaciais, capaz de 
 | Pressão dos Tanques | Pressão do combustível e oxidante. | 200 a 350 bar |
 | Status Módulos Críticos | Sistemas de navegação e comunicação. | 1 (Operacional) |
 
-🛠️ Como Executar
-1. Certifique-se de ter o Python 3 instalado.
-2. Clone este repositório.
-3. Execute o script principal:
+🛠️ Como Clonar e Executar
+Para rodar este projeto em sua máquina local, siga os passos abaixo:
+
+1. **Clonar o Repositório**:
+   Abra o seu terminal (CMD ou PowerShell) e digite:
+   ```bash
+   git clone https://github.com/rebecadasilvavieira/telemetria-espacial-projeto.git
+   ```
+2. **Entrar na Pasta do Projeto**:
+   ```bash
+   cd telemetria-espacial-projeto
+   ```
+3. **Executar o Script**:
+   Certifique-se de ter o Python 3 instalado e execute:
    ```bash
    python telemetria_script.py
    ```
-4. Ou abra o arquivo `telemetria_notebook.ipynb` em um ambiente Jupyter Notebook ou VS Code.
+4. **Executar via Notebook**:
+   Caso prefira, você também pode abrir o arquivo `telemetria_notebook.ipynb` em um ambiente Jupyter Notebook ou VS Code para visualizar a execução passo a passo.
 
 📸 Exemplo de Execução
 ```text
