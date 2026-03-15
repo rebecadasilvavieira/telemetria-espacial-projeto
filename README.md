@@ -18,13 +18,14 @@ Este projeto simula um sistema de telemetria para veículos espaciais, capaz de 
 | Pressão dos Tanques | Pressão do combustível e oxidante. | 200 a 350 bar |
 | Status Módulos Críticos | Sistemas de navegação e comunicação. | 1 (Operacional) |
 
+
 🛠️ Como Clonar e Executar
 Para rodar este projeto em sua máquina local, siga os passos abaixo:
 
 1. **Clonar o Repositório**:
    Abra o seu terminal (CMD ou PowerShell) e digite:
    ```bash
-   git clone https://github.com/rebecadasilvavieira/telemetria-espacial-projeto.git
+   git clone https://github.com/rebecadasilvavieira/telemetria-espacial-projeto
    ```
 2. **Entrar na Pasta do Projeto**:
    ```bash
