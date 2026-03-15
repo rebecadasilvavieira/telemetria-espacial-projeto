@@ -21,7 +21,7 @@ O algoritmo de verificação funciona como um "filtro de segurança" (Go/No-Go).
 
 ### Pseudocódigo (Lógica Passo a Passo)
 
-Este pseudocódigo descreve a lógica lógica sequencial utilizada pelo sistema:
+Este pseudocódigo descreve a lógica sequencial utilizada pelo sistema:
 
 ```pseudocode
 FUNÇÃO VerificarDecolagem(telemetria_data):
